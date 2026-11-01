@@ -1,0 +1,5 @@
+{
+    "name": "Docker",
+    "requirements": "Debian, Ubuntu, Fedora, RHEL-family. Needs internet access.",
+    "description": "Docker is a platform for developing, shipping, and running applications in containers."
+}
