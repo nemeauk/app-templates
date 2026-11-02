@@ -1,15 +1,7 @@
-{ 
-  name : Docker , 
-  requirements : Debian, Ubuntu, Fedora, RHEL-family. Needs internet access. , 
-  description : Docker is a platform for developing, shipping, and running applications in containers. , 
-  slug : docker , 
-  script : set -e
-if command -v docker >/dev/null 2>&1; then
-    echo "Docker is already installed"
-    docker --version
-    exit 0
-fi
-curl -fsSL https://get.docker.com -o /tmp/get-docker.sh
-sh /tmp/get-docker.sh
-docker --version 
+{
+  "name": "Docker",
+  "requirements": "Debian, Ubuntu, Fedora, RHEL-family. Needs internet access.",
+  "description": "Docker is a platform for developing, shipping, and running applications in containers.",
+  "slug": "docker",
+  "script": "set -e\nif command -v docker >/dev/null 2>&1; then\n    echo \"Docker is already installed\"\n    docker --version\n    exit 0\nfi\ncurl -fsSL https://docker.com -o /tmp/get-docker.sh\nsh /tmp/get-docker.sh\ndocker --version"
 }
