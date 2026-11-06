@@ -1,0 +1,6 @@
+{
+    "name": "Uptime Kuma",
+    "requirements": "Docker installed, port 3001 available. Needs internet access.",
+    "description": "A self-hosted monitoring tool that helps you keep track of your websites and services.",
+    "slug": "uptime-kuma"
+}
